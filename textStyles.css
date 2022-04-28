@@ -1,0 +1,140 @@
+body {
+    background: #2d2d2d;
+  }
+  
+  .Iam {
+  
+    font: normal 2em/3em Montserrat, sans-serif;
+    color: rgb(104, 104, 104);
+    margin-left: 5em;
+  }
+  .Iam:hover{
+      color: aqua;
+  }
+  .Iam p {
+    height: 50px;
+    float: left;
+    margin-right: 0.3em;
+  }
+  .Iam b {
+    float: left;
+    overflow: hidden;
+    position: relative;
+    height: 2em;    
+    top: .8em;
+  }
+  .Iam .innerIam {
+    display: inline-block;
+    color: #fffffe;
+    position: relative;
+    white-space: nowrap;
+    top: 0;
+    left: 0;
+   
+    letter-spacing: -0.08em;
+  
+  
+  /*animation*/
+  -webkit-animation:move 7s;
+     -moz-animation:move 7s;
+      -ms-animation:move 7s;
+       -o-animation:move 7s;
+          animation:move 7s;
+  /*animation-iteration-count*/
+  -webkit-animation-iteration-count:1;
+     -moz-animation-iteration-count:1;
+      -ms-animation-iteration-count:1;
+       -o-animation-iteration-count:1;
+          animation-iteration-count:1;
+  /*animation-delay*/
+  -webkit-animation-delay:2s;
+     -moz-animation-delay:2s;
+      -ms-animation-delay:2s;
+       -o-animation-delay:2s;
+          animation-delay:2s;
+
+          animation-fill-mode: forwards;
+  }
+
+  @keyframes move{
+  0%  { top: 0em; }
+  20% { top: -5em; }
+  40% { top: -10em; }
+  60% { top: -15em; }
+  80% { top: -20em; }
+  }
+  
+  @-webkit-keyframes move {
+    0%  { top: 0em; }
+    20% { top: -2em; }
+    40% { top: -4em; }
+    60% { top: -6em; }
+    80% { top: -8em; }
+    }
+  
+  @-moz-keyframes move {
+    0%  { top: 0em; }
+    20% { top: -2em; }
+    40% { top: -4em; }
+    60% { top: -6em; }
+    80% { top: -8em; }
+    }
+    
+  @-o-keyframes move {
+    0%  { top: 0em; }
+    20% { top: -2em; }
+    40% { top: -4em; }
+    60% { top: -6em; }
+    80% { top: -8em; }
+    }
+    
+  @keyframes move {
+    0%  { top: 0em; }
+    20% { top: -2em; }
+    40% { top: -4em; }
+    60% { top: -6em; }
+    80% { top: -8em; }
+    }
+  
+
+
+    @keyframes filling {
+        from{
+          background-position: center 25%;
+        }
+        to {
+          background-position: center 50%;
+        }
+      }
+      
+      .container-text {
+        
+      
+        padding-top: 10px;
+        font-size: 80px;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -0.08em;
+        color: #ffffff00; 
+       
+      }
+
+      .backgroud-text{
+        background-image:  url(https://www.noticiasdelsoldelalaguna.com.mx/doble-via/ciencia/tnb3ck-oxigeno-planeta-tierra-sol/ALTERNATES/LANDSCAPE_960/Ox%C3%ADgeno-Planeta-Tierra-Sol);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        animation: filling 5s ease forwards;
+      }
+
+
+
+      .otro-texto{
+        text-shadow: 0px 0px 30px rgba(253, 253, 253, 0.393);
+        padding-top: 10px;
+        font-size: 80px;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -0.08em;
+        color: #ffffff00; 
+       
+      }
